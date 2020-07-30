@@ -34,3 +34,7 @@
  
  - [JavaScript](https://www.javascript.com/)
  - [ReactJS](https://pt-br.reactjs.org/)
+ ---
+ 
+ Made by [Breno Mendes](https://github.com/Brenox889/) :bat:
+

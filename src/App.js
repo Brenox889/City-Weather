@@ -3,7 +3,8 @@ import React,{useState}from 'react';
 
 const api = {
   key:"316913d60fbb6ece66bf294cf11c10de",
-  base:"http://api.openweathermap.org/data/2.5/"
+  base:"http://api.openweathermap.org/data/2.5/",
+  forecast:"https://api.openweathermap.org/data/2.5/onecall?lat=-23.5480&lon=-46.6360&exclude=hourly,daily&appid={316913d60fbb6ece66bf294cf11c10de}"
 }
 
 
@@ -20,6 +21,7 @@ function App() {
           setWeather(result)
           setQuery('')
         })
+
     }
   }
 
